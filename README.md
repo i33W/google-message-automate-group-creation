@@ -11,7 +11,7 @@ python3 make_group.py
 #### 실행 파일 만드는 법
 ---
 ```
-python3 install pyinstaller
+pip3 install pyinstaller
 pyinstaller --icon=./icon.ico --onefile make_group.py
 ```
 - 관리자 권한으로 cmd 켜서 실행할 것
